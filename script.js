@@ -16,7 +16,6 @@ $("#submenu .row > div:first-child .nav-item").hover(function() {
     $(".subsubmenu").hide();
     $("#menu-" + menu).show();
     $("#submenu-img").css("background-image", "url(img/submenus/" + menu + ".jpg)");
-    console.log("img/submenus/" + menu + ".jpg");
 })
 
 $("#submenu, .subsubmenu").mouseleave(function() {
