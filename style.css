@@ -314,6 +314,7 @@ video {
 #submenu-img {
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 
 .ingredients tr td:first-child {
