@@ -108,8 +108,10 @@ header a {
     position: relative;
 }
 
-.content {
-    padding: 30px 0;
+.bg-pastel-yellow .container,
+.bg-pastel-green .container,
+.bg-pastel-brown .container {
+    padding-top: 30px;
 }
 
 #recipies .row, #tips .row {
@@ -388,4 +390,63 @@ footer a:hover, footer .fab:hover {
 #footer-copyright {
     text-align: center;
     font-size: 10px
+}
+
+#weltrundreise .card video {
+    border-radius: 5px;
+}
+
+#weltrundreise .card a {
+    line-height: 0;
+}
+
+#recipies a {
+    text-decoration: unset;
+    color: unset;
+}
+
+#recipies a:hover {
+    color: gray;
+}
+
+#recipe-content ol {
+   list-style: none;
+   counter-reset: item;
+}
+
+#recipe-content li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: 0px 24px 1px -24px gray;
+    margin-left: -1.2em;
+}
+
+#recipe-content li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #D0E08D;
+    border-radius: 100%;
+    color: white;
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    max-width: calc(100% - 60px);
+}
+
+#recipe-content .row > .col-md-8 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    #recipe-content .row > .col-md-8 {
+        padding-right: 50px;
+    }
+
+    #recipe-content iframe {
+        padding-right: 24px;
+    }
 }
