@@ -37,12 +37,14 @@
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
-                <h1 id="page-title">
+                <h1 id="page-title" class="d-none d-md-block">
                     <a href="index.html">
                         We love food
                     </a>
                 </h1>
+                <img id="mobile-page-title" src="img/Logo.png" alt="We love food" class="d-block d-md-none">
                 <div id="search">
+                    <input type="text" placeholder="Suchst du was bestimmtes?">
                     <i class="fas fa-search"></i>
                 </div>
             </div>
@@ -66,9 +68,183 @@
         </div>
     </nav>
 
-    <nav id="submenu" class="navbar navbar-expand-sm">
-
+    <nav id="submenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item" data-menu="breakfast">
+                                <a class="nav-link" href="#">Frühstück</a>
+                            </li>
+                            <li class="nav-item" data-menu="starter">
+                                <a class="nav-link" href="#">Vorspeise</a>
+                            </li>
+                            <li class="nav-item" data-menu="maincourse">
+                                <a class="nav-link" href="#">Hauptspeise</a>
+                            </li>
+                            <li class="nav-item" data-menu="sidedishes">
+                                <a class="nav-link" href="#">Beilagen</a>
+                            </li>
+                            <li class="nav-item" data-menu="dessert">
+                                <a class="nav-link" href="#">Dessert</a>
+                            </li>
+                            <li class="nav-item" data-menu="snacks">
+                                <a class="nav-link" href="#">Snacks</a>
+                            </li>
+                            <li class="nav-item" data-menu="drinks">
+                                <a class="nav-link" href="#">Getränke</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-4">
+                    <nav id="menu-breakfast" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Over Night Oats</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Porridge</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Müsli</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Power-Bowl</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pancakes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Eier</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Smothie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sandwiches</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="menu-starter" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Suppe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Salat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dip</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="menu-maincourse" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pizza</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Auflauf</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fleisch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fisch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Meeresfrüchte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nudelgerichte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gemüse</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="menu-sidedishes" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gemüse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hülsenfrüchte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kartoffeln</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Klöße</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nudeln</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Reis/Getreide</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="menu-dessert" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Muffin/Cupcakes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cremes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Eis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kekse & Plätzchen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kuchen & Torten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tarte & Quische</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">No Bake</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="menu-drinks" class="navbar subsubmenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cocktail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bowle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Likör</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Punsch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shake</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Limonade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kaffee & Kakau</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-4">
+                    <div id="submenu-img"></div>
+                </div>
+            </div>
+        </div>
     </nav>
+
     <div id="recipe-subbild"></div>
 
     <div id="recipe-header" class="container">

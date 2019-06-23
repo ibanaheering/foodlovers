@@ -33,6 +33,11 @@ header a {
     left: 0;
 }
 
+#mobile-page-title {
+    margin: 0 auto;
+    height: 24px;
+}
+
 @media only screen and (max-width: 767px) {
     #page-title {
         font-size: 22px;
@@ -67,12 +72,10 @@ header a {
 #search {
     float: right;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     z-index: 10;
-}
-
-#search:hover {
-    color: gray;
+    top: 26px;
+    right: 30px;
 }
 
 #titelbild {
@@ -215,6 +218,7 @@ header a {
     display: none;
     padding-left: 0;
     padding-right: 0;
+    z-index: 1;
 }
 
 #submenu .navbar {
@@ -449,4 +453,33 @@ footer a:hover, footer .fab:hover {
     #recipe-content iframe {
         padding-right: 24px;
     }
+}
+
+#search input {
+    border: none;
+    padding-right: 25px;
+    -webkit-transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+    transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+    cursor: pointer;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    outline: none;
+}
+
+#search input:focus {
+    width: 250px;
+    z-index: 1 !important;
+    border-bottom: 1px solid #BBB !important;
+    cursor: text !important;
+}
+
+#search i {
+    display: inline-block;
+    border: none;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    z-index: 11;
 }

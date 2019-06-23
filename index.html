@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
     <title>foodlover</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="description" content="Your gorgeous description">
+    <meta name="keywords" content="rezpte,kochen,backen,trinken,essen,international,küche" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400" rel="stylesheet">
@@ -19,7 +20,6 @@
     <meta name="msapplication-TileColor" content="#cfe08e">
     <meta name="theme-color" content="#cfe08e">
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -37,25 +37,24 @@
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
-                <h1 id="page-title">
+                <h1 id="page-title" class="d-none d-md-block">
                     <a href="index.html">
                         We love food
                     </a>
                 </h1>
+                <a href="index.html">
+                    <img id="mobile-page-title" src="img/Logo.png" alt="We love food" class="d-block d-md-none">
+                </a>
                 <div id="search">
+                    <input type="text" placeholder="Suchst du was bestimmtes?">
                     <i class="fas fa-search"></i>
                 </div>
             </div>
         </div>
     </header>
 
-    <nav id="menu" class="navbar navbar-expand-sm">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+    <nav id="menu" class="navbar">
+            <ul class="navbar-nav navbar-expand-sm">
                 <li class="nav-item">
                     <a id="nav-category" class="nav-link" href="#">Kategorien</a>
                 </li>
@@ -63,7 +62,6 @@
                     <a class="nav-link" href="weltrundreise.html">Weltrundreise</a>
                 </li>
             </ul>
-        </div>
     </nav>
 
     <nav id="submenu">
@@ -422,10 +420,8 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 
