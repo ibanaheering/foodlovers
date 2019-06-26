@@ -466,6 +466,8 @@ footer a:hover, footer .fab:hover {
     top: 0;
     right: 15px;
     outline: none;
+    z-index: 3;
+    background: none;
 }
 
 #search input:focus {
@@ -481,5 +483,5 @@ footer a:hover, footer .fab:hover {
     position: absolute;
     right: 15px;
     cursor: pointer;
-    z-index: 11;
+    z-index: 2;
 }
