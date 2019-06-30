@@ -52,4 +52,3 @@ if (typeof ingredients !== 'undefined') {
         updateIngredients(portions);
     })
 }
-
