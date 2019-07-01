@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Brannboll';
-    src: url(fonts/brannboll/BrannbollFet.ttf);
+    src: url(../fonts/brannboll/BrannbollFet.ttf);
 }
 
 @font-face {
     font-family: 'Cinnabar Brush';
-    src: url(fonts/dk-cinnabar-brush/DKCinnabarBrush.ttf);
+    src: url(../fonts/dk-cinnabar-brush/DKCinnabarBrush.ttf);
 }
 
 body {
@@ -247,7 +247,7 @@ header a {
     text-align: center;
     color: white;
     padding-top: 280px;
-    background-image: url('img/rezepte-indonesien.jpg');
+    background-image: url(../img/rezepte-indonesien.jpg);
 }
 
 #recipe-titelbild h1 {
@@ -258,7 +258,7 @@ header a {
 #recipe-subbild {
     width: 100%;
     height: 600px;
-    background-image: url('img/nasigoreng.jpg');
+    background-image: url(../img/nasigoreng.jpg);
     /* Parallax Effekt */
     background-attachment: fixed;
     background-position: center;
