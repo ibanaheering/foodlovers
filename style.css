@@ -152,6 +152,10 @@ header a {
 }
 
 #recipies .line {
+    width: calc(50% - 100px);
+}
+
+#index-recipies .line {
     width: calc(50% - 70px);
 }
 
@@ -432,12 +436,12 @@ footer a:hover, footer .fab:hover {
     line-height: 0;
 }
 
-#recipies a {
+#recipies a, #index-recipies a {
     text-decoration: unset;
     color: unset;
 }
 
-#recipies a:hover {
+#recipies a:hover, #index-recipies a:hover {
     color: gray;
 }
 
