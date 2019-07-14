@@ -503,3 +503,7 @@ footer a:hover, footer .fab:hover {
     cursor: pointer;
     z-index: 2;
 }
+
+#search .fa-search:hover {
+    color: gray;
+}
